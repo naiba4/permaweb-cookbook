@@ -13,12 +13,12 @@ sidebar: false
 <a class="home-btn" href="/getting-started/welcome.html">Welcome</a>
 </div>
 </div>
-<div class="home-row">
+<div class="home-row" style="">
   <div class="home-box">
     <div style="display: flex;justify-content: space-between;align-items: start;">
       <img src="/hello-world.svg" alt="hello-world" />
       <div style="margin-left: 8px;">
-        <div style="font-family: Inter;font-size: 22.65px;font-weight: 500;">Hello World</div>
+        <div class="card-header">Hello World</div>
         <p style="margin:0;padding:0;padding-top: 4px;font-family: Inter;font-size: 14px;font-weight: 400;color: #999999;">Getting started with the Permaweb</p>
       </div>
     </div>
@@ -33,14 +33,14 @@ If you haven’t built on Arweave yet, this is the place to start. A great intro
     <div style="display: flex;justify-content: space-between;align-items: start;">
       <img src="/core-concept.svg" alt="hello-world" />
       <div style="margin-left: 8px;">
-        <div style="font-family: Inter;font-size: 22.65px;font-weight: 500;">Concepts</div>
+        <div class="card-header">Concepts</div>
         <p style="margin:0;padding:0;padding-top: 4px;font-family: Inter;font-size: 14px;font-weight: 400;color: #999999;">Comprehensive building blocks for developers</p>
       </div>
     </div>
     <div style="font-family: Inter; font-size: 14px;font-weight: 400;color: #1D1D1D;">
 Get the lay of the land for building on arweave, this is must know stuff.
     </div>
-    <div style="">
+    <div>
       <a href="/concepts/index.html" style="display:flex;gap:8px;font-family: Inter; font-size: 14px; font-weight: 400;color: #0E7CFF;">Getting Started <img src="/lets-go.svg" /></a>
     </div>
   </div>
@@ -48,7 +48,7 @@ Get the lay of the land for building on arweave, this is must know stuff.
     <div style="display: flex;justify-content: space-between;align-items: start;">
       <img src="/guides.svg" alt="hello-world" />
       <div style="margin-left: 8px;">
-        <div style="font-family: Inter;font-size: 22.65px;font-weight: 500;">Guides</div>
+        <div class="card-header">Guides</div>
         <p style="margin:0;padding:0;padding-top: 4px;font-family: Inter;font-size: 14px;font-weight: 400;color: #999999;">Specific deployments made easy</p>
       </div>
     </div>
@@ -66,7 +66,7 @@ Snack-sized guides, focused on most widely used tools for devs.
     <div style="display: flex;justify-content: space-between;align-items: start;">
       <img src="/featured.svg" alt="hello-world" />
       <div style="margin-left: 8px;">
-        <div style="font-family: Inter;font-size: 22.65px;font-weight: 500;">Featured Contributor</div>
+        <div class="card-header">Featured Contributor</div>
         <p style="margin:0;padding:0;padding-top: 4px;font-family: Inter;font-size: 14px;font-weight: 400;color: #999999;">The resources are created by and for the Arweave Community.</p>
       </div>
     </div>
@@ -85,7 +85,7 @@ Snack-sized guides, focused on most widely used tools for devs.
     <div style="display: flex;justify-content: space-between;align-items: start;">
       <img src="/contribute.svg" alt="hello-world" />
       <div style="margin-left: 8px;">
-        <div style="font-family: Inter;font-size: 22.65px;font-weight: 500;">Contribute</div>
+        <div class="card-header">Contribute</div>
         <p style="margin:0;padding:0;padding-top: 4px;font-family: Inter;font-size: 14px;font-weight: 400;color: #999999;">Share your knowledge</p>
       </div>
     </div>
