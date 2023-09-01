@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "add-to-calendar-button": "^2.2.5",
-    "bootstrap": "5.2.3"
+    "bootstrap": "5.3.1"
   }
 }
